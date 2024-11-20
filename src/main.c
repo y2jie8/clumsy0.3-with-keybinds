@@ -139,10 +139,10 @@ LRESULT CALLBACK LowLevelKeyboardProc( int nCode, WPARAM wParam, LPARAM lParam )
        break;
    }
 
-    if(pressedKey == 116)
+    if(pressedKey == 117)
     {
         uiStartCb(NULL);
-    } else if(pressedKey == 117)
+    } else if(pressedKey == 118)
     {
         uiStopCb(NULL);
     }
